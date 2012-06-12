@@ -7,9 +7,10 @@ gem 'rails', '3.2.3'
 
 #gem 'mongrel', '>= 1.2.0.pre2'
 gem 'sho-mongrel'
-
-
 gem 'sqlite3'
+gem 'gravatar_image_tag'
+
+
 group :development do
 	gem 'rspec-rails', '2.10.1'
 	gem 'annotate', '2.4.1.beta1'
